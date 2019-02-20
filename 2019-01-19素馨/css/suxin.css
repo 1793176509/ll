@@ -1,0 +1,518 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+
+/*头部开始*/
+.nav{
+    width: 100%;
+    height: 79px;
+    background: rgba(0,0,0,0.2);
+    /*background: #b0b0b0;*/
+    z-index: 999;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.n-container{
+    width: 1170px;
+    height: 79px;
+    /*background: #ff6700;*/
+    margin: 0 auto;
+}
+.n-logo{
+    width: 150px;
+    height: 79px;
+    /*background: #b0b0b0;*/
+    float: left;
+}
+.img-box{
+    width: 150px;
+    height: 50px;
+    margin: 0 auto;
+    margin-top: 17px;
+    box-sizing: border-box;
+}
+.img-box img{
+    width: 100%;
+}
+.n-right{
+    width: 602px;
+    height: 79px;
+    float: right;
+    /*background: #00a5c4;*/
+}
+.r-item{
+    width: 86px;
+    height: 79px;
+    line-height: 79px;
+    text-align: center;
+    /*background: white;*/
+    font-size: 14px;
+    float: left;
+    color: #fff;
+}
+.xzzt{
+    color: #16b0dc;
+}
+.r-item a:hover{
+    color: #16b0dc;
+}
+/*头部结束*/
+
+
+/*轮播开始*/
+.met-banner{
+    width: 100%;
+    height: 855px;
+    background: #00a5c4;
+    /*margin-top: -80px;*/
+    z-index: 1;
+    box-sizing: border-box;
+}
+.met-banner img{
+    width: 100%;
+    z-index: 1;
+    float: left;
+}
+.b-left{
+    width: 224px;
+    height: 770px;
+
+    position: absolute;
+    top: 79px;
+    left: 0;
+
+    float: left;
+
+    z-index: 100;
+
+    text-align: center;
+    line-height: 770px;
+    color: black;
+}
+.b-left:hover{ background: rgba(0,0,0,0.2);}
+.b-right:hover{ background: rgba(0,0,0,0.2);}
+
+
+.b-right{
+    width: 224px;
+    height: 770px;
+
+    position: absolute;
+    top: 79px;
+    right: 0;
+
+    float: right;
+    /*background: rgba(0,0,0,0.2);*/
+    z-index: 100;
+
+    text-align: center;
+    line-height: 770px;
+}
+.b-c{
+    width: 1070px;
+    height: 104px;
+    /*background: #00a5c4;*/
+
+    position: absolute;
+    bottom: -100px;
+    left: 225px;
+    z-index: 100;
+    box-sizing: border-box;
+}
+.b-z{
+    width: 1070px;
+    height: 84px;
+    text-align: center;
+    line-height: 84px;
+    font-size: 36px;
+    color: #faf2d2 ;
+    font-weight: 300;
+}
+.b-y{
+    width: 108px;
+    height: 20px;
+    /*background: #ff6700;*/
+    margin: 0 auto;
+    box-sizing: border-box;
+
+}
+.b-y-lb{
+    width: 10px;
+    height: 10px;
+    background: black;
+    border-radius: 50%;
+    margin: 5px 13px;
+    box-sizing: border-box;
+    float: left;
+}
+/*轮播结束*/
+
+
+
+
+/*花艺开始*/
+.met-index-hy{
+    width: 100%;
+    height: 746px;
+    background: #fff;
+    padding: 70px 0px;
+    box-sizing: border-box;
+}
+.met-i-container{
+    width: 1170px;
+    height: 606px;
+    /*background: #00a5c4;*/
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+.m-i-c-title{
+    width: 100%;
+    height: 44px;
+    /*background: #ff6700;*/
+    font-size: 36px;
+    font-weight: 100;
+    color:#4e4b4f;
+    text-align: center;
+    line-height: 44px;
+}
+.m-i-c-title span{
+    width: 40px;
+    height: 30px;
+    background: #16b0dc;
+    font-size: 30px;
+    margin-left: 20px;
+    box-sizing: border-box;
+}
+.m-i-c-nr{
+    width: 912px;
+    height: 24px;
+    /*background: #ef3a3b;*/
+    margin: 0 auto;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-weight: 300;
+    color: #5e7387;
+    text-align: center;
+    line-height: 24px;
+    margin-bottom: 40px;
+}
+.met-i-lunbo{
+    width: 1170px;
+    height: 478px;
+    /*background: green;*/
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+.m-i-lbt{
+    width: 1020px;
+    height: 478px;
+    /*background: #ff6700;*/
+    margin: 0px auto;
+    float: left;
+}
+.lb-l{
+     width: 75px;
+     height: 100%;
+     /*background: black;*/
+     float: left;
+     line-height: 478px;
+     text-align: center;
+ }
+.lb-r{
+    width: 75px;
+    height: 100%;
+    /*background: black;*/
+    float: right;
+    line-height: 478px;
+    text-align: center;
+}
+.lbt-item{
+    width: 320px;
+    height: 456px;
+    background: white;
+    float: left;
+    margin-right: 30px;
+}
+.l-i-m{
+    margin-right: 0;
+}
+.item-img{
+    width: 320px;
+    height: 320px;
+    background: black;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+.item-img img{
+    width: 100%;
+    border-radius: 50%;
+}
+.lbt-fig{
+    width: 320px;
+    height: 77px;
+    /*background: red;*/
+}
+.l-f-t{
+    width: 320px;
+    height: 22px;
+    line-height: 22px;
+    text-align: center;
+    color: #333;
+}
+.l-f-nr{
+    width: 320px;
+    height: 44px;
+    font-size: 14px;
+    color: #757575;
+    margin-bottom: 11px;
+    box-sizing: border-box;
+}
+.l-btn{
+    width: 320px;
+    height: 44px;
+    background: #f96868;
+    font-size: 14px;
+    text-align: center;
+    line-height: 44px;
+    color: white;
+}
+.l-btn i{
+    color: #9c2115;
+    margin-right: 15px;
+}
+/*花艺结束*/
+
+
+/*花语开始*/
+.met-index-yu{
+    width: 100%;
+    height: 708px;
+    background: #f5f5f5;
+    padding: 70px 0;
+    box-sizing: border-box;
+}
+.m-i-y-hz
+{
+    width: 1170px;
+    height: 568px;
+    /*background: #ff6700;*/
+    margin: 0 auto;
+}
+.y-gg{
+    width: 1170px;
+    height: 504px;
+    /*margin-top: 20px;*/
+    /*background: green;*/
+}
+.yy-gg{
+    width: 585px;
+    height: 96px;
+    /*background: yellow;*/
+    float: left;
+    margin-top: 30px;
+    box-sizing: border-box;
+}
+.gg-tu{
+    width:180px;
+    height: 96px;
+    border-radius: 4px;
+    margin-right: 10px;
+    float: left;
+}
+.gg-tu img{
+    height: 100%;
+    border-radius: 4px;
+}
+.gg-nr{
+    width: 375px;
+    height: 96px;
+    /*background: #ff6700;*/
+    float: left;
+}
+.g-n-t{
+    width: 375px;
+    height: 22px;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+.g-n-t:hover{
+    color: #00a5c4;
+    text-decoration: underline;
+}
+.g-n-des{
+    width: 375px;
+    height: 42px;
+    margin-bottom: 5px;
+    color: #76838f;
+    font-size: 14px;
+}
+.g-n-jw{
+    width: 375px;
+    height: 21px;
+    color: #76838f;
+    line-height: 21px;
+}
+.j-sj{
+    width: 65px;
+    height: 100%;
+    font-size: 14px;
+    float: left;
+}
+.j-zz{
+    width: 48px;
+    height: 100%;
+    margin-left: 10px;
+    box-sizing: border-box;
+    float: left;
+}
+.j-rs{
+    width: 39px;
+    height: 100%;
+    margin-left: 10px;
+    float: left;
+}
+/*花语结束*/
+/*关于开始*/
+.met-index-about{
+    width: 100%;
+    height: 850px;
+    background: #fff;
+    padding-top: 70px;
+    box-sizing: border-box;
+}
+
+.about-neirong{
+    width: 1170px;
+    height: 769px;
+    /*background: #00a5c4;*/
+    margin: 0 auto;
+}
+.about-title{
+    width: 1140px;
+    height: 44px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    text-align: center;
+    line-height: 44px;
+    font-size: 36px;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+.about-nr{
+    width: 1140px;
+    height: 676px;
+    /*background: #ff6700;*/
+    margin: 0  auto;
+}
+.a-n-1{
+    margin: 0 auto;
+    width: 1080px;
+    height: 33px;
+    text-align: center;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: 微软雅黑;
+    font-weight: 300;
+    color: #222;
+}
+.a-n-2{
+    margin: 0 auto;
+    width: 1080px;
+    height: 33px;
+    text-align: center;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: 微软雅黑;
+    font-weight: 300;
+    color: #222;
+}
+.a-n-img{
+    width: 1080px;
+    height: 340px;
+    margin: 0 auto;
+    /*background: black;*/
+}
+.n-i{
+    width: 530px;
+    height: 100%;
+    margin: 0 auto;
+}
+.a-n-img img{
+    height: 100%;
+
+}
+/*关于结束*/
+
+/*footer开始*/
+.footer{
+    width: 100%;
+    height: 184px;
+    background: #f5f5f5;
+}
+.footer-tou{
+    width: 100%;
+    height: 20px;
+    border-top: 1px solid #f2f3f5;
+    background: white;
+}
+.footer-zhongjian{
+    width: 100%;
+    height: 67px;
+    text-align: center;
+    line-height: 67px;
+}
+.f-z-l{
+    color: #83b944;
+}
+.f-z-lan{
+    color: #62a8ea;
+}
+.footer-txt{
+    width: 100%;
+    height: 76px;
+    /*background: #ff6700;*/
+}
+.f-txt-1{
+    width: 1140px;
+    height: 26px;
+    font-size: 14px;
+    text-align: center;
+    line-height: 26px;
+    margin: 0 auto;
+    color: #aaaaaa;
+}
+.f-txt-1-1{
+    width: 360px;
+    height: 100%;
+    margin: 0 auto;
+    line-height: 26px;
+}
+.f-txt-1-1 img{
+    height: 60%;
+}
+.f-txt-1-1:hover{
+    text-decoration: underline;
+}
+.f-txt-q{
+    width: 130px;
+    height: 100%;
+    float: left;
+    /*background: #00a5c4;*/
+    font-size: 14px;
+    color: #7ac3ed;
+    line-height: 26px;
+}
+.f-txt-w{
+    width: 230px;
+    height: 100%;
+    float: right;
+    font-size: 14px;
+    color: #7ac3ed;
+    line-height: 26px;
+}
+/*footer结束*/

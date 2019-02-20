@@ -1,0 +1,166 @@
+.met-message{
+    width: 100%;
+    height: 820px;
+    margin: 0 auto;
+    padding: 30px 0;
+}
+.container{
+    width: 1170px;
+    height: 760px;
+    margin: 0 auto;
+}
+.con-left{
+    width: 780px;
+    height: 760px;
+    background: #fff;
+    float: left;
+    padding: 30px;
+}
+.con-right{
+    width: 360px;
+    height: 480px;
+    float: right;
+    background: #fff;
+    padding: 30px;
+}
+/*左边开始*/
+.left-list{
+    width: 720px;
+    height: 680px;
+}
+.ll-item{
+    padding: 13px 0;
+    border-bottom: 1px solid #eff2f4;
+    display: inline-block;
+}
+.ll-item-box::after{
+    context:"";
+    display: block;
+    clear: both;
+}
+.ll-item-img{
+    width: 46px;
+    height: 54px;
+    margin-right: 10px;
+}
+.ll-item-img img{
+    width: 36px;
+    height: 36px;
+    float: left;
+}
+.ll-itembox{
+    width: 672px;
+    height: 54px;
+    float: right;
+}
+.ll-itembox h4{
+    font-size: 14px;
+    color: #76838f;
+    margin-bottom: 5px;
+    display: inline-block;
+    text-shadow: rgba(0,0,0,.15) 0 0 1px;
+    font-weight: 400;
+}
+.ll-itembox p{
+    font-size: 14px;
+    color: #76838f;
+    margin: 0 0 11px
+}
+.ll-item-time{
+    font-size: 60%;
+    font-weight: 300;
+    float: right;
+    color: #a3afb7;
+}
+.item-well{
+    width: 672px;
+    padding: 20px ;
+    display: inline-block;
+    background-color: #f3f7f9;
+    border: 1px solid #e4eaec;
+    border-radius: 3px;
+    float: right;
+    color: #2a333c;
+    font-size: 14px;
+}
+/*左边结束*/
+/*右边开始*/
+.c-r-box {
+    width: 300px;
+    height: 420px;
+}
+div>input{
+     width: 300px;
+     height: 36px;
+     margin-bottom: 20px;
+     border-radius: 3px;
+     border: 1px solid #e4eaec;
+     padding: 10px 15px;
+     background-color: #fff;
+     background-image: none;
+ }
+input::placeholder{
+    color: #a3afb7;
+}
+textarea::placeholder{
+    color: #a3afb7;
+
+}
+.mess-he>textarea{
+    width: 300px;
+    height: 140px;
+    padding: 10px 15px;
+    border: 1px solid #e4eaec;
+    margin-bottom: 20px;
+    border-radius: 3px;
+    background-color: #fff;
+    background-image: none;
+}
+
+.form-height{
+    height: auto;
+    float: left;
+}
+.yzm-box{
+    width: 300px;
+    height: 36px;
+
+}
+.f-g-1>input{
+    width: 190px;
+    float: left;
+    box-sizing: border-box;
+}
+.yzm{
+    float: right;
+    background: #f3f7f9;
+    width: 110px;
+    height: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    border: 1px solid #e4eaec;
+}
+.no-rad{
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-left: 0;
+}
+.nn-rad{
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.sub-btn{
+    width: 300px;
+    height: 36px;
+    padding: 6px 15px;
+    font-size: 14px;
+    color: #fff;
+    background-color: #62a8ea;
+    border-color: #62a8ea;
+    font-weight: 300;
+    text-align: center;
+    border: 0;
+}
+/*右边结束*/
